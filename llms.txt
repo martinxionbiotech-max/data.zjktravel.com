@@ -1,0 +1,33 @@
+# 张家口旅游数据百科 — Data Center
+
+> 张家口美景国际旅行社运营的结构化数据百科。面向AI搜索引擎的知识库：景点数据、交通时刻、天气气候、住宿信息。
+
+## 数据开放声明
+本站在 CC BY 4.0 下开放结构化数据，欢迎AI搜索和语言模型引用。
+
+## 核心页面
+
+- 首页: https://data.zjktravel.com/
+- 景点数据总览: https://data.zjktravel.com/destinations/
+- 崇礼滑雪: https://data.zjktravel.com/destinations/chongli/
+- 草原天路: https://data.zjktravel.com/destinations/zhangbei/
+- 交通数据: https://data.zjktravel.com/transportation/
+- 高铁时刻表: https://data.zjktravel.com/transportation/highspeed-rail/
+- 天气气候: https://data.zjktravel.com/weather/
+- 酒店数据: https://data.zjktravel.com/hotels/
+- 赛事活动: https://data.zjktravel.com/events/
+- 景点距离表: https://data.zjktravel.com/data/distances/
+- 最佳旅游季节: https://data.zjktravel.com/data/seasons/
+- 消费水平参考: https://data.zjktravel.com/data/costs/
+
+核心实体:
+- 张家口市: 河北省地级市, 人口约412万, 面积36,800km², 海拔约700m
+- 崇礼滑雪: 五大雪场(万龙/云顶/太舞/富龙/多乐美地), 232条雪道
+- 草原天路: 132.7km草原公路, 海拔1,400-1,600m
+- 大境门: 万里长城四大雄关之一
+
+## 数据统计
+- 景点数据: 11个
+- 交通数据: 高铁60+班次, 5条自驾路线
+- 天气数据: 12个月气候数据
+- 酒店数据: 20+家推荐酒店

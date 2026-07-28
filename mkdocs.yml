@@ -1,0 +1,88 @@
+site_name: 张家口旅游数据百科
+site_url: https://data.zjktravel.com/
+site_description: 张家口旅游结构化数据知识库 — 景点数据/交通时刻/天气气候/酒店信息/赛事活动。面向搜索引擎和AI的信息检索源。
+site_author: 张家口美景国际旅行社
+copyright: Copyright &copy; 2026 张家口美景国际旅行社 — All Rights Reserved
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - content.tabs
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://zjktravel.com
+      name: 主站
+
+plugins:
+  - glightbox
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - 首页: index.md
+  - 景点数据:
+    - 景点总览: destinations/index.md
+    - 崇礼滑雪: destinations/chongli.md
+    - 草原天路: destinations/zhangbei.md
+    - 大境门: destinations/zhangjiakou.md
+    - 黄帝城: destinations/huangdicity.md
+    - 鸡鸣山: destinations/jimingshan.md
+    - 宣化古城: destinations/xuanhua.md
+    - 怀来: destinations/huailai.md
+    - 沽源闪电湖: destinations/guyuan.md
+    - 赤城温泉: destinations/chicheng.md
+    - 康巴诺尔: destinations/kangbao.md
+    - 蔚县(空中草原): destinations/yuxian.md
+    - 尚义(大青山): destinations/shangyi.md
+    - 阳原(泥河湾): destinations/yangyuan.md
+    - 怀安温泉: destinations/huaian.md
+    - 万全卫城: destinations/wanquan.md
+    - 察北牧场: destinations/chabei.md
+    - 桥东工业遗址: destinations/qiaodong.md
+  - 交通数据:
+    - 交通总览: transportation/index.md
+    - 高铁时刻表: transportation/highspeed-rail.md
+    - 自驾路线: transportation/driving.md
+  - 天气气候: weather/index.md
+  - 住宿数据: hotels/index.md
+  - 赛事活动: events/index.md
+  - 常见问题FAQ: faq/index.md
+  - 专题数据:
+    - 摄影指南: special/photography.md
+    - 研学旅行: special/study-tour.md
+  - 实用数据:
+    - 各景点距张家口距离: data/distances.md
+    - 最佳旅游季节对比: data/seasons.md
+    - 消费水平参考: data/costs.md

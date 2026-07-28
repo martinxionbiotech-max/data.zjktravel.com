@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <meta name="baidu-site-verification" content="zjktravel" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DataCatalog",
+    "name": "张家口旅游数据百科",
+    "url": "https://data.zjktravel.com",
+    "description": "张家口旅游结构化数据知识库",
+    "provider": {
+      "@type": "TravelAgency",
+      "name": "张家口美景国际旅行社",
+      "url": "https://zjktravel.com"
+    },
+    "inLanguage": "zh-CN",
+    "isAccessibleForFree": true
+  }
+  </script>
+  <meta property="og:title" content="张家口旅游数据百科" />
+  <meta property="og:description" content="张家口景点、交通、天气、酒店结构化数据知识库" />
+  <meta property="og:url" content="https://data.zjktravel.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="张家口旅游数据百科" />
+  <meta property="og:locale" content="zh_CN" />
+  <link rel="canonical" href="https://data.zjktravel.com" />
+{% endblock %}
+{% block content %}
+  {{ super() }}
+{% endblock %}
