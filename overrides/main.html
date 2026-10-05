@@ -64,12 +64,11 @@
   </script>
   <meta property="og:title" content="张家口旅游数据百科" />
   <meta property="og:description" content="张家口景点、交通、天气、酒店结构化数据知识库" />
-  <meta property="og:url" content="https://data.zjktravel.com" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="张家口旅游数据百科" />
   <meta property="og:locale" content="zh_CN" />
-  <link rel="canonical" href="https://data.zjktravel.com" />
-{% endblock %}
+  {% endblock %}
 {% block content %}
   {{ super() }}
 {% endblock %}
